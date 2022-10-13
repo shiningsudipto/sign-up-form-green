@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.assignment {
+    background-color: aliceblue;
+    padding: 3rem 0;
+    height: 100vh;
+}
+
+.life-innovior {
+    border: none;
+    border-radius: 20px;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(182, 177, 177),
+        -10px -10px 10px white;
+}
+
+.life-innovior img {
+    width: 50px;
+}
+
+.log-in {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.log-in p {
+    padding-top: 10px;
+    font-size: 35px;
+}
+
+.form p {
+    margin-top: 10px;
+    font-size: 22px;
+    padding-bottom: 1.5rem;
+}
+
+.Password,
+.Username {
+    margin: 15px 20px;
+    padding: 20px;
+    border-radius: 15px;
+    border: none;
+    width: 80%;
+    font-size: 18px;
+    background-color: aliceblue;
+    box-shadow: inset 12px 10px 12px rgb(214, 209, 209),
+        inset -12px -10px 12px white;
+
+}
+
+.form {
+    padding-bottom: 2rem;
+}
+
+.button {
+    background-color: rgb(33, 177, 33);
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin: 15px 20px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 60%;
+    font-weight: 600;
+}
+
+.form a {
+    text-decoration: none;
+    color: rgb(107, 98, 98);
+}
