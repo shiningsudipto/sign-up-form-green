@@ -60,7 +60,11 @@
     padding-bottom: 2rem;
 }
 
-.button {
+*:focus {
+    outline: 1px solid rgb(33, 177, 33);
+}
+
+.submit {
     background-color: rgb(33, 177, 33);
     color: white;
     border: none;
@@ -70,6 +74,12 @@
     border-radius: 15px;
     width: 60%;
     font-weight: 600;
+    transition: 0.5s;
+}
+
+.submit:hover {
+    background-color: rgb(13, 151, 13);
+    cursor: pointer;
 }
 
 .form a {

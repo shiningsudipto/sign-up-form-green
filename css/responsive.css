@@ -35,12 +35,18 @@
         font-size: 16px;
     }
 
-    .button {
+    .submit {
         font-size: 18px;
         margin: 15px 20px;
         padding: 15px;
         border-radius: 15px;
         width: 60%;
         font-weight: 600;
+    }
+
+    .form p {
+        margin-top: 10px;
+        font-size: 18px;
+        padding-bottom: 1.5rem;
     }
 }
